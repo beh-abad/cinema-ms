@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: vazir;
+    background-color: rgb(224, 224, 224);
+}
+
+.div_mn {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.panel-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    z-index: 3;
+}
+
+.in-panel-left {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    color: black;
+    box-shadow: 2px 2px 10px;
+    overflow: scroll;
+}
+.in-panel-left .panel-head
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.in-panel-left>.__1
+ {
+    font-size: 20px;
+    font-family: vazir;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding-top: 10px ;
+    padding-right: 20px;
+    z-index: 2;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.in-panel-left>.__1:hover
+{
+    background-color: rgb(161, 161, 161);
+    cursor: pointer;
+}
+
+.in-panel-left>.__1:active
+{
+    background-color: rgb(207, 207, 207);
+    box-shadow: 2px 2px 10px;
+}
+
+.parent {
+    position: absolute;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-free {
+    font-family: vazir;
+    font-size: 17px;
+    height: 100%;
+    width: 50px;
+    background-color: black;
+    color: white;
+}
+
+.button-free:hover {
+    font-family: vazir;
+    font-size: 17px;
+    color: black;
+    height: 100%;
+    width: 50px;
+    background-color: white;
+}
+
+.button-free:focus {
+    font-family: vazir;
+    font-size: 17px;
+    color: black;
+    height: 100%;
+    width: 50px;
+    background-color: white;
+}
+
+.parent>div.ch_1 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+    box-shadow: 2px 3px 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 40px;
+    margin-left: 15px;
+    overflow: visible;
+}
+
+.parent>div.ch_2 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 100%;
+    font-family: vazir;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+    margin-left: 15px;
+}
+
+.parent>div.ch_3 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    font-family: vazir;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 80;
+    box-shadow: 2px -3px 20px;
+    z-index: 3;
+    margin-left: 15px;
+}
+
+.parent>div.ch_4 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.bootstrap-table-1>table {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    border-collapse: collapse;
+    border: 2px;
+    border-style: dotted;
+
+}
+
+#add_a_film {
+    height: 700px;
+    width: 500px;
+    margin-top: 20px;
+    background-color: rgb(15, 15, 15);
+}
+
+.row_1>tr>th,
+td {
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px;
+    border-style: solid;
+}

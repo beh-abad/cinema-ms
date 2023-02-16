@@ -1,0 +1,69 @@
+.bd_mn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(70deg, rgb(237, 42, 255), rgb(94, 97, 255));
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    font-family: vazir;
+}
+
+#errors_div {
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    padding-left:80px; 
+    font-family: vazir;
+}
+
+.add_a_film_panel {
+    justify-content: content;
+    background-color: rgb(255, 255, 255);
+    font-family: vazir;
+    margin-top: 20px;
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 10pxّ;
+    z-index: 2;
+    box-shadow: 3px 3px 20px;
+}
+
+input {
+    text-align: right;
+    direction: rtl;
+}
+
+.panel_around {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(168, 168, 168);
+    width: 90%;
+    padding: 10px;
+}
+
+.add_a_film_panel>div>form>label {
+    color: white;
+
+}
+
+.add_a_film_panel>div.end>label {
+    color: white;
+
+}
+
+#mid {
+    width: 100px;
+}
+
+.form-control {
+    background-color: rgba(233, 248, 255);
+}
